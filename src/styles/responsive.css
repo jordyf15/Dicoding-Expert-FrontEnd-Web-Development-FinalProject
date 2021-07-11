@@ -1,0 +1,190 @@
+@media screen and (min-width: 350px){
+  #hero-desc{
+      padding: 0 30px;
+  }
+  #hero-catchphrase{
+      font-size: 18px;
+  }
+
+  #resto h2{
+      margin: 50px;
+  }
+}
+
+@media screen and (min-width: 450px){
+  header{
+      display: flex;
+      justify-content: space-between;
+  }
+  #drawer{
+      position: relative;
+      left: 0;
+      box-shadow: none;
+      
+      max-width: 300px;
+  }
+  #nav-list{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      border: none;
+      align-items: center;
+      height: 100%;
+      padding-right: 10px;
+  }
+  .nav-items a{
+      border: none;
+      padding: 12px 2px;
+   }
+  #hamburger{
+      display: none;
+  }
+
+
+  #hero{
+      height: 300px;
+      justify-content: center;
+  }
+  #hero-cover{
+      height: 300px;
+  }
+  #hero-desc{
+      font-size: 18px;
+  }
+  #hero-catchphrase{
+      font-size: 24px;
+  }
+
+  .skip-link:focus{
+      top: 65px;
+  }
+
+  #resto-detail-hero #resto-detail-name{
+    font-size: 45px;
+  }
+
+  #resto-detail-about-us-desc{
+    margin: 0px 30px;
+    font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 550px){
+  #hero-desc{
+      font-size: 18px;
+  }
+  #hero-catchphrase{
+      font-size: 24px;
+  }
+  #resto-detail-about-us-desc{
+    margin: 0px 50px;
+    }
+}
+
+@media screen and (min-width: 625px){
+  #resto-list{
+      grid-template-columns: auto auto;
+  }
+  #resto-detail-hero #resto-detail-name{
+    font-size: 55px;
+  }
+  #resto-detail-hero #resto-detail-location{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width: 700px){
+  #hero-desc{
+      max-width: 700px;
+  }
+  #resto-detail-about-us{
+      text-align: center;
+  }
+  #resto-detail-about-us-desc{
+   font-size: 18px;   
+}
+    #category-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #resto-detail-menu-food-drink-container{
+        display: flex;
+    }
+    #resto-detail-menu-foods, #resto-detail-menu-drinks{
+        width: 49%;
+    }
+    .resto-detail-menu-list::-webkit-scrollbar {
+        width: 10px;
+        height: 7px;
+    }
+    .resto-detail-menu-list::-webkit-scrollbar-thumb {
+        background: #03ac0e;
+        border-radius: 11px;
+        border: solid 1px white;
+    }
+    .resto-detail-menu-list::-webkit-scrollbar-track{
+        background: #ffffff;
+        border-radius: 15px;
+    }
+
+    #resto-detail-rating-star{
+        font-size: 40px;
+    }
+    #resto-detail-rating-stat{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #previous-review{
+        margin-left: 50px;
+    }
+    #next-review{
+        margin-right: 50px;
+    }
+
+    #review-form{
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width: 925px){
+  #resto-list{
+      grid-template-columns: auto auto auto;
+  }
+  #resto-detail-hero #resto-detail-name{
+    font-size: 70px;
+    }
+    #resto-detail-about-us-desc{
+        padding: 0 70px;
+     }
+    #previous-review{
+        margin-left: 70px;
+    }
+    #next-review{
+        margin-right: 70px;
+    }
+    #review-form{
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1225px){
+    #resto-list{
+        grid-template-columns: auto auto auto auto;
+    }
+    #resto-detail-hero #resto-detail-name{
+        font-size: 80px;
+    }
+    #resto-detail-about-us-desc{
+        padding: 0 100px;
+     }
+     #previous-review{
+        margin-left: 110px;
+    }
+    #next-review{
+        margin-right: 120px;
+    }
+    #review-form{
+        padding: 0 150px;
+    }
+}
