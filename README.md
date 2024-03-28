@@ -2,7 +2,7 @@
 Restopedia is a Progressive web apps that allows the user to view information about certain restaurants such as their location, menus, reviews and ratings and also favorite them. This project was made in order to pass Dicoding's Expert Front-End Web Development Course.
   
 ## Live Demo on Repl
-https://Restopedia.jordyf15.repl.co  
+https://restopedia-97073.web.app/ 
   
 ## Setup
 ### Installation
